@@ -14,7 +14,7 @@ while True:
     data = input('> ') #接收用户输入的数据 str
     if not data:
         break
-    tcpCliSock.send(data.encode()) # send方法为byte，这里需要转换
+    tcpCliSock.send(data.encode()) # send方法需要的数据类型为byte，这里需要转换
     data = tcpCliSock.recv(BUFSIZE)
     if not  data:
         break
