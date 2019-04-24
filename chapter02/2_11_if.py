@@ -8,3 +8,7 @@ elif x == 0 :
     print(" %d 和0 一样大" % x)
 else:
     print(" %d 比 0 大" % x)
+
+
+class TestClass():
+    print("111")
