@@ -9,7 +9,7 @@ nums = string.digits
 print('Welcome to the Identifier Checker v1.0')
 print('Testees must be at least 2char lopng.')
 
-inp = input('Identifier to test?')
+inp = input('Identifier to test?  ')
 
 if len(inp) > 1:# 长度必须大于 1
     if inp[0] not  in alphas: # 判断第一个字母是不是字母或者下划线，若不是则打印提示并退出
