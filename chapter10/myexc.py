@@ -2,7 +2,7 @@
 
 import os, socket, errno, types, tempfile
 
-
+a =1
 class NetworkError(IOError):
     pass
 
@@ -12,6 +12,7 @@ class FileError(IOError):
 
 
 def updArgs(args, newarg=None):
+
     if isinstance(args, IOError):
         myargs = []
         myargs.extend([arg for arg in args])
